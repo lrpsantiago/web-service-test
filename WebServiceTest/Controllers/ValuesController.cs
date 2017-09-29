@@ -22,16 +22,26 @@ namespace WebServiceTest.Controllers
 
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public dynamic Get()
         {
-            return names.ToList();
+            var result = new
+            {
+                names = names.ToList()
+            };
+
+            return result;
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public dynamic Get(int id)
         {
-            return names.ToList()[id];
+            var result = new
+            {
+                name = names.ToList()[id]
+            };
+
+            return result;
         }
 
         // POST api/values
