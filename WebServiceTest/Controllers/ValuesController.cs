@@ -23,26 +23,33 @@ namespace WebServiceTest.Controllers
 
         // GET api/values
         [HttpGet]
-        public dynamic Get()
+        public IActionResult Get()
         {
             var result = new
             {
                 names = names.ToList()
             };
 
-            return JsonConvert.SerializeObject(result);
+            return this.Ok(result);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public dynamic Get(int id)
+        public IActionResult Get(int id)
         {
-            var result = new
+            try
             {
-                name = names.ToList()[id]
-            };
+                var result = new
+                {
+                    name = names.ToList()[id]
+                };
 
-            return JsonConvert.SerializeObject(result);
+                return this.Ok(result);
+            }
+            catch (Exception e)
+            {
+                return this.BadRequest(e);
+            }
         }
 
         // POST api/values
