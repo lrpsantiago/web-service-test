@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace WebServiceTest.Controllers
 {
@@ -29,7 +30,7 @@ namespace WebServiceTest.Controllers
                 names = names.ToList()
             };
 
-            return result;
+            return JsonConvert.SerializeObject(result);
         }
 
         // GET api/values/5
@@ -41,7 +42,7 @@ namespace WebServiceTest.Controllers
                 name = names.ToList()[id]
             };
 
-            return result;
+            return JsonConvert.SerializeObject(result);
         }
 
         // POST api/values
