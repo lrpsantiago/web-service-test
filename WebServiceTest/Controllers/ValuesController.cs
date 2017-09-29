@@ -9,18 +9,29 @@ namespace WebServiceTest.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private IEnumerable<string> names;
+
+        public ValuesController()
+        {
+            this.names = new List<string>
+            {
+                "Luiz Ricardo Paiva Santiago",
+                "Joyciane Ferreira Cavalcante Marques"
+            };
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return names.ToList();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return names.ToList()[id];
         }
 
         // POST api/values
