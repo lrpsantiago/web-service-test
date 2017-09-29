@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\WebServiceTest\\WebServiceTest.csproj",
+      "projectUniqueName": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\WebServiceTest.csproj",
       "projectName": "WebServiceTest",
-      "projectPath": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\WebServiceTest\\WebServiceTest.csproj",
+      "projectPath": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\WebServiceTest.csproj",
       "packagesPath": "C:\\Users\\gizmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\WebServiceTest\\obj\\",
+      "outputPath": "C:\\Users\\gizmin\\Documents\\web-service-test\\WebServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
