@@ -10,7 +10,7 @@ using WebServiceTest.Contexts;
 namespace WebServiceTest.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20171002164237_initial")]
+    [Migration("20171002173909_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

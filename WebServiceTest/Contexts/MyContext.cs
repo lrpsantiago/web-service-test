@@ -15,7 +15,7 @@ namespace WebServiceTest.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = @"Data Source=database.db;";
+            var connectionString = @"Data Source=testdb.db;";
 
             optionsBuilder.UseSqlite(connectionString);
         }
