@@ -15,10 +15,9 @@ namespace WebServiceTest.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = @"Server=(localdb)\mssqllocaldb;Database=EFGetStarted.AspNetCore.NewDb;
-                Trusted_Connection=True;";
+            var connectionString = @"Data Source=database.db;";
 
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseSqlite(connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
