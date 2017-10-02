@@ -12512,6 +12512,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.EntityFrameworkCore >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 10.0.3"
     ]
@@ -12560,6 +12561,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
