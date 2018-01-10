@@ -20,3 +20,14 @@ C:\Users\gizmin\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.
 C:\Users\gizmin\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.AssemblyInfo.cs
 C:\Users\gizmin\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.dll
 C:\Users\gizmin\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.pdb
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp2.0\WebServiceTest.deps.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp2.0\WebServiceTest.runtimeconfig.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp2.0\WebServiceTest.runtimeconfig.dev.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp2.0\WebServiceTest.dll
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp2.0\WebServiceTest.pdb
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.AssemblyInfoInputs.cache
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.AssemblyInfo.cs
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.dll
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp2.0\WebServiceTest.pdb

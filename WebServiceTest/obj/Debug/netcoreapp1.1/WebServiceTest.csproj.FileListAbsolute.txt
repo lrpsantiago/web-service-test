@@ -1,0 +1,5 @@
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp1.1\WebServiceTest.deps.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp1.1\WebServiceTest.runtimeconfig.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\bin\Debug\netcoreapp1.1\WebServiceTest.runtimeconfig.dev.json
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp1.1\WebServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\Luiz Ricardo\Documents\web-service-test\WebServiceTest\obj\Debug\netcoreapp1.1\WebServiceTest.AssemblyInfo.cs
