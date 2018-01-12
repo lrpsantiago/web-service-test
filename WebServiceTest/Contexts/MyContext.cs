@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.IO;
 using WebServiceTest.Entities;
 using WebServiceTest.Repositories;
 
@@ -17,7 +16,7 @@ namespace WebServiceTest.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var connectionString = $@"Data Source={Startup.RootPath}\testdb.db;";
-            
+
             optionsBuilder.UseSqlite(connectionString);
         }
 
