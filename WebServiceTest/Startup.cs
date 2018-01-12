@@ -14,8 +14,9 @@ namespace WebServiceTest
 {
     public class Startup
     {
+        public static string RootPath { get; private set; }
         public IConfiguration Configuration { get; }
-
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -37,6 +38,7 @@ namespace WebServiceTest
                 app.UseDeveloperExceptionPage();
             }
 
+            RootPath = env.ContentRootPath;
             app.UseMvc();
         }
     }
